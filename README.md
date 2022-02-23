@@ -1,12 +1,25 @@
 # samsung-esp8266-remote
-An ESP8266 implementation of IRremote. Control a Samsung TV over serial input
+An ESP8266 implementation of IRremote. Control a Samsung TV over serial input. Trigger an infrared LED to send Samsung remote codes by sending commands to an ESP8266 over the serial console.
 
 
 # What it Does
 
 
 # How it Works
+Send a single letter to the serial console to trigger the following commands.
 
+** letter : remote command **
+p : tv off
+o : tv on
+l : source selection
+m : menu
+e : enter
+r : return
+q : exit
+w : up
+a : left
+s : down
+d : right
 
 # Requirements
 
